@@ -1,0 +1,94 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('./tempback.jpg') center center/cover no-repeat;
+}
+.container{
+    box-shadow: 3px 1px 3px white;
+    display: flex;
+    width: 100vw;
+    height: 75px;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+img{
+ margin-left: 8px;
+ border-radius: 14px;
+}
+
+.list-item{
+    display: flex;
+    margin-left: 18px;
+    padding: 20px;
+    list-style: none;
+    align-items: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.item{
+    margin: 14px;
+}
+
+/* for temp section */
+.heading{
+   text-align: center;
+}
+
+.temp-section{
+    box-shadow: 2px 3px 1px white;
+    background-color: black;
+    height: 45vh;
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 28%;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.temp-display{
+  
+    font-size: 100px;
+    justify-content: center;
+    color: white;
+    background-color: grey;
+    height: 60%;
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 90px;
+    border-radius: 9px;
+    border: 2px solid rgb(26, 24, 24);
+    text-align: center;
+}
+
+.smallsize{
+    font-size: 50px;
+}
+.d-flex{
+ display: flex;
+ }
+
+ #symbol{
+    margin-top: 16px;
+ }
+
+.buttons{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.btn{
+    padding: 5px;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 10px;
+    background-color: rgb(228, 100, 61);
+    margin: 5px;
+    cursor: pointer;
+}
